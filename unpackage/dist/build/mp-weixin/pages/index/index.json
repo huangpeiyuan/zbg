@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "招标哥",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 120,
+  "usingComponents": {
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-loading": "/node-modules/uview-ui/components/u-loading/u-loading",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

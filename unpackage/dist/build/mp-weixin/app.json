@@ -1,0 +1,52 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/message/message",
+        "pages/notice/details",
+        "pages/notice/total",
+        "pages/me/me",
+        "pages/subscribes/subscribe/subscribe",
+        "pages/subscribes/addSubscribe/addSubscribe",
+        "pages/other/feedback/feedback",
+        "pages/other/aboutus/aboutus"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#f10000",
+        "backgroundColor": "#FFFFFF"
+    },
+    "tabBar": {
+        "color": "#bfbfbf",
+        "selectedColor": "#f10000",
+        "borderStyle": "black",
+        "backgroundColor": "#FFFFFF",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/主页.png",
+                "selectedIconPath": "static/主页 (1).png"
+            },
+            {
+                "pagePath": "pages/subscribes/addSubscribe/addSubscribe",
+                "text": "订阅",
+                "iconPath": "static/订阅 (1).png",
+                "selectedIconPath": "static/订阅.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "我的",
+                "iconPath": "static/个人.png",
+                "selectedIconPath": "static/个人 (1).png"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "您的位置将用来向您推荐您可能感兴趣的招标信息"
+        }
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

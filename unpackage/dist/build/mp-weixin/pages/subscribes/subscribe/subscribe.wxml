@@ -1,0 +1,1 @@
+<view class="main"><image src="../../../static/person.png" mode="widthFix"></image><button type="primary" size="default" data-event-opts="{{[['tap',[['addSubscribe',['$event']]]]]}}" bindtap="__e">立即添加</button><view class="text _p">您还没有订阅信息，请添加~</view></view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索页",
+  "usingComponents": {
+    "sl-filter": "/components/sl-filter/sl-filter",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast"
+  }
+}

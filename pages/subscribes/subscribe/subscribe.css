@@ -1,0 +1,15 @@
+image{
+	width: 300upx;
+	height: 300upx;
+	display: block;
+	margin:0  auto;
+	margin-top: 300upx;
+}
+button{
+	margin-top: 35upx;
+	width: 400upx;
+}
+p{
+	text-align: center;
+	margin-top: 35upx;
+}

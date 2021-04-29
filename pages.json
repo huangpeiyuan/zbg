@@ -1,0 +1,154 @@
+{	
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uview-ui
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+			// @dcloudio
+			"^uni-(.*)": "@dcloudio/uniui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [
+		// {
+		// 	"path": "pages/enter/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "登录页",
+		// 		"enablePullDownRefresh":true
+		// 	}
+		// }, 
+		// {
+		// 	"path": "pages/enter/register",
+		// 	"style": {
+		// 		"navigationBarTitleText": "注册页",
+		// 		"enablePullDownRefresh":true
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/enter/forgetPwd",
+		// 	"style": {
+		// 		"navigationBarTitleText": "修改密码",
+		// 		"enablePullDownRefresh":true
+		// 	}
+		// }, 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "招标哥",
+				"enablePullDownRefresh":true,
+				"onReachBottomDistance":120
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "搜索页"
+				// "enablePullDownRefresh":true
+			}
+		},
+		{
+		    "path" : "pages/notice/details",
+		    "style" : {
+				"navigationBarTitleText": "信息详情"
+			}
+		},
+		{
+		    "path" : "pages/notice/total",
+		    "style" : {
+				"navigationBarTitleText": "招标详情"
+			}
+		},
+		{
+			"path":"pages/me/me",
+			"style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+		
+	
+        
+        
+        ,{
+            "path" : "pages/subscribes/subscribe/subscribe",
+            "style" : {
+				"navigationBarTitleText": "订阅"
+			}
+        },
+		{
+			"path":"pages/subscribes/addSubscribe/addSubscribe",
+			"style" : {
+				"navigationBarTitleText": "添加订阅"
+			}
+		}
+        ,{
+            "path" : "pages/other/feedback/feedback",
+            "style" : {
+            	"navigationBarTitleText": "意见反馈"
+            }
+        }
+        ,{
+            "path" : "pages/other/aboutus/aboutus",
+            "style" : {
+            	"navigationBarTitleText": "关于我们"
+            }
+        }
+		,{
+		    "path" : "pages/other/history/history",
+		    "style" : {
+		    	"navigationBarTitleText": "历史记录"
+		    }
+		},
+		{
+		    "path" : "pages/other/collection/collection",
+		    "style" : {
+		    	"navigationBarTitleText": "收藏记录"
+		    }
+		},
+		{
+			"path": "pages/other/servicenumber/servicenumber",
+			"style": {
+				"navigationBarTitleText": "招标哥"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#f10000",
+		"backgroundColor": "#FFFFFF"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"tabBar":{
+		"color":"#bfbfbf",
+		"selectedColor":"#f10000",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/主页.png",
+				"selectedIconPath":"static/主页 (1).png"
+			},
+			{
+				"pagePath":"pages/subscribes/addSubscribe/addSubscribe",
+				"text":"订阅",
+				"iconPath":"static/订阅 (1).png",
+				"selectedIconPath":"static/订阅.png"
+			},
+			{
+				"pagePath":"pages/me/me",
+				"text":"我的",
+				"iconPath":"static/个人.png",
+				"selectedIconPath":"static/个人 (1).png"
+			}
+		]
+	}
+}

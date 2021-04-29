@@ -1,0 +1,1 @@
+<view class="tabs"><view class="tabs_title"><block wx:for="{{labelList}}" wx:for-item="label" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['sendMessageToFather',['$event']]]]]}}" class="title_item" bindtap="__e">{{label.value}}</view></block></view><view class="tabs_content"><slot></slot></view></view>
